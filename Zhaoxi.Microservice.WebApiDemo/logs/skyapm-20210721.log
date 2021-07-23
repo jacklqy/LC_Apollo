@@ -1,0 +1,99 @@
+2021-07-21 18:15:38.621 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-07-21 18:15:38.675 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-07-21 18:15:38.675 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-07-21 18:15:38.675 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-07-21 18:15:38.676 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-07-21 18:15:38.676 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-07-21 18:15:38.676 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-07-21 18:15:38.677 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-07-21 18:15:38.734 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-07-21 18:15:38.735 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-07-21 18:15:38.735 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-07-21 18:15:51.856 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:15:53.838 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:16:03.958 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:16:08.712 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:19:32.626 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-07-21 18:19:32.672 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-07-21 18:19:32.672 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-07-21 18:19:32.672 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-07-21 18:19:32.680 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-07-21 18:19:32.680 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-07-21 18:19:32.681 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-07-21 18:19:32.681 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-07-21 18:19:32.736 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-07-21 18:19:32.737 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-07-21 18:19:32.737 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-07-21 18:20:55.455 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-07-21 18:20:55.500 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-07-21 18:20:55.500 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-07-21 18:20:55.500 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-07-21 18:20:55.500 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-07-21 18:20:55.500 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-07-21 18:20:55.501 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-07-21 18:20:55.501 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-07-21 18:20:55.565 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-07-21 18:20:55.565 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-07-21 18:20:55.565 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-07-21 18:21:14.600 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:21:14.627 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:21:24.733 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:21:25.531 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:21:35.656 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:21:40.517 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:21:50.627 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:21:55.545 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:22:05.659 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:22:10.525 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:22:20.636 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:22:25.544 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:22:35.666 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:22:40.530 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:22:50.669 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:22:55.521 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2021-07-21 18:23:05.639 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-07-21 18:23:10.528 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].

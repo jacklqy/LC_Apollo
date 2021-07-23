@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/StudyRecord.cs \
+obj\Debug\netcoreapp3.1/StudyRecordGrpc.cs: Protos/StudyRecord.proto

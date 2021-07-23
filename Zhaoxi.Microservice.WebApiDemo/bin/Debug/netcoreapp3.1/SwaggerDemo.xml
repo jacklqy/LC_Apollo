@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zhaoxi.Microservice.WebApiDemo</name>
+    </assembly>
+    <members>
+        <member name="T:Zhaoxi.Microservice.WebApiDemo.EmailOption">
+            <summary>
+            测试Option
+            </summary>
+        </member>
+    </members>
+</doc>

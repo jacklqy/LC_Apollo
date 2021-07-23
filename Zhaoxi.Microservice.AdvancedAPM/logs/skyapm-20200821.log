@@ -1,0 +1,538 @@
+2020-08-21 20:48:19.875 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 20:48:19.924 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 20:48:19.925 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 20:48:19.925 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 20:48:19.925 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 20:48:19.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 20:48:19.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 20:48:19.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 20:48:19.973 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 20:48:19.974 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 20:48:20.035 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 20:48:21.242 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 20:48:21.826 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=2].
+2020-08-21 20:48:49.943 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:48:49 +00:00
+2020-08-21 20:48:49.953 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32764 32767 1000 1000
+2020-08-21 20:49:19.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32757 32767 1000 1000
+2020-08-21 20:49:25.997 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 6 trace segment. cost: 00:00:00.0519078s
+2020-08-21 20:49:49.945 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32754 32767 1000 1000
+2020-08-21 20:49:49.949 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:49:49 +00:00
+2020-08-21 20:50:19.946 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32761 32767 1000 1000
+2020-08-21 20:50:49.931 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32759 32767 1000 1000
+2020-08-21 20:50:49.931 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:50:49 +00:00
+2020-08-21 20:51:19.931 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:51:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:51:49 +00:00
+2020-08-21 20:51:49.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32761 32767 1000 1000
+2020-08-21 20:52:19.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:52:44.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 20:52:46.931 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0058837s
+2020-08-21 20:52:49.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32761 32767 1000 1000
+2020-08-21 20:52:49.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:52:49 +00:00
+2020-08-21 20:53:01.944 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0055277s
+2020-08-21 20:53:04.978 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 18 trace segment. cost: 00:00:00.0400192s
+2020-08-21 20:53:19.943 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32758 32767 1000 1000
+2020-08-21 20:53:49.951 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32759 32767 1000 1000
+2020-08-21 20:53:49.952 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:53:49 +00:00
+2020-08-21 20:54:19.939 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32763 32767 1000 1000
+2020-08-21 20:54:25.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0049058s
+2020-08-21 20:54:49.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32759 32767 1000 1000
+2020-08-21 20:54:49.942 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:54:49 +00:00
+2020-08-21 20:55:19.927 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32763 32767 1000 1000
+2020-08-21 20:55:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:55:49 +00:00
+2020-08-21 20:55:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2020-08-21 20:56:19.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32765 32767 1000 1000
+2020-08-21 20:56:49.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:56:49 +00:00
+2020-08-21 20:56:49.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:57:19.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:57:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32759 32767 1000 1000
+2020-08-21 20:57:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:57:49 +00:00
+2020-08-21 20:58:19.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32763 32767 1000 1000
+2020-08-21 20:58:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:58:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:58:49 +00:00
+2020-08-21 20:59:19.941 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32762 32767 1000 1000
+2020-08-21 20:59:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 12:59:49 +00:00
+2020-08-21 20:59:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:00:19.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:00:49.939 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:00:49.939 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:00:49 +00:00
+2020-08-21 21:01:19.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:01:49.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:01:49 +00:00
+2020-08-21 21:01:49.937 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:02:19.941 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:02:49.929 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:02:49.931 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:02:49 +00:00
+2020-08-21 21:03:19.938 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:03:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:03:49.928 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:03:49 +00:00
+2020-08-21 21:04:19.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:04:49.929 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:04:49.930 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:04:49 +00:00
+2020-08-21 21:05:19.939 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:05:49.943 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:05:49.943 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:05:49 +00:00
+2020-08-21 21:06:19.941 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:06:49.926 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:06:49 +00:00
+2020-08-21 21:06:49.940 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 29M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:06:49.947 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 11 trace segment. cost: 00:00:00.0112229s
+2020-08-21 21:06:52.945 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 12 trace segment. cost: 00:00:00.0093637s
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 21:06:59.263 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-08-21 21:07:12.080 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 21:07:12.126 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 21:07:12.126 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 21:07:12.126 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 21:07:12.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 21:07:12.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 21:07:12.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 21:07:12.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 21:07:12.179 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 21:07:12.179 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 21:07:12.229 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:07:12.708 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 21:07:13.243 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=13].
+2020-08-21 21:07:24.663 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 21:07:30.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0295418s
+2020-08-21 21:07:33.134 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 6 trace segment. cost: 00:00:00.0067718s
+2020-08-21 21:07:42.136 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:07:42 +00:00
+2020-08-21 21:07:42.138 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:08:12.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:08:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:08:42 +00:00
+2020-08-21 21:08:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:09:12.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:09:42.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:09:42 +00:00
+2020-08-21 21:09:42.146 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:10:12.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:10:42.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:10:42 +00:00
+2020-08-21 21:10:42.131 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:11:12.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:11:42.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:11:42.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:11:42 +00:00
+2020-08-21 21:12:12.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:12:42.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:12:42.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:12:42 +00:00
+2020-08-21 21:13:12.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:13:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:13:42 +00:00
+2020-08-21 21:13:42.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:14:12.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:14:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:14:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:14:42 +00:00
+2020-08-21 21:15:12.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:15:42.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:15:42.132 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:15:42 +00:00
+2020-08-21 21:16:12.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:16:42.129 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:16:42.129 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:16:42 +00:00
+2020-08-21 21:17:12.144 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:17:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:17:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:17:42 +00:00
+2020-08-21 21:18:12.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:18:42.129 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:18:42 +00:00
+2020-08-21 21:18:42.129 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:19:12.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:19:42.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:19:42.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:19:42 +00:00
+2020-08-21 21:20:12.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:20:27.146 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:20:37.165 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:20:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32756 32767 1000 1000
+2020-08-21 21:20:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:20:42 +00:00
+2020-08-21 21:20:42.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:20:52.146 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:20:57.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:21:07.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:21:12.139 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32756 32767 1000 1000
+2020-08-21 21:21:12.139 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:21:22.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:21:27.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:21:37.157 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:21:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:21:42 +00:00
+2020-08-21 21:21:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32756 32767 1000 1000
+2020-08-21 21:21:42.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:21:52.148 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:21:57.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:22:07.149 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:22:12.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:22:12.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:22:22.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:22:27.152 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:22:37.635 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:22:42.136 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:22:42 +00:00
+2020-08-21 21:22:42.137 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:22:42.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:22:52.184 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:22:57.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:23:07.148 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:23:12.126 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:23:12.128 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:23:22.133 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:23:27.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:23:37.145 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:23:42.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:23:42.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:23:42 +00:00
+2020-08-21 21:23:42.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:23:52.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:23:57.139 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:24:07.142 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:24:12.139 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:24:12.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:24:22.145 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:24:27.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:24:37.144 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:24:42.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:24:42 +00:00
+2020-08-21 21:24:42.127 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 22M ThreadPool 32756 32767 1000 1000
+2020-08-21 21:24:42.130 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:24:52.140 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:24:57.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:25:07.150 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-08-21 21:25:12.139 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:25:12.141 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2020-08-21 21:25:12.161 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:25:42.138 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:25:42.144 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:25:42 +00:00
+2020-08-21 21:26:06.164 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0354729s
+2020-08-21 21:26:12.137 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:26:42.197 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:26:42.198 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:26:42 +00:00
+2020-08-21 21:26:46.302 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 21:26:46.302 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 21:26:46.302 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 21:26:46.302 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 21:26:46.303 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 21:26:46.303 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 21:26:46.303 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 21:26:46.303 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-08-21 21:28:07.810 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 21:28:07.864 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 21:28:07.865 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 21:28:07.865 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 21:28:07.865 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 21:28:07.865 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 21:28:07.866 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 21:28:07.866 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 21:28:07.917 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 21:28:07.918 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 21:28:07.999 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:28:08.764 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 21:28:09.393 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=16].
+2020-08-21 21:28:13.855 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 21:28:19.919 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 6 trace segment. cost: 00:00:00.0468424s
+2020-08-21 21:28:22.885 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0103535s
+2020-08-21 21:28:37.886 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:28:37 +00:00
+2020-08-21 21:28:37.889 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:29:07.879 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 9M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:29:37.879 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:29:37 +00:00
+2020-08-21 21:29:37.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:30:08.143 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:30:37.872 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:30:37 +00:00
+2020-08-21 21:30:37.875 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:31:07.876 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:31:37.868 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:31:37.868 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:31:37 +00:00
+2020-08-21 21:32:07.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:32:37.882 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:32:37 +00:00
+2020-08-21 21:32:37.884 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:33:07.876 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:33:37.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:33:37 +00:00
+2020-08-21 21:33:37.882 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:34:07.882 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:34:37.877 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:34:37 +00:00
+2020-08-21 21:34:37.877 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:35:07.874 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:35:38.243 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:35:38 +00:00
+2020-08-21 21:35:38.251 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:36:07.877 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:36:37.883 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:36:37.883 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:36:37 +00:00
+2020-08-21 21:37:07.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:37:37.869 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:37:37.870 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:37:37 +00:00
+2020-08-21 21:38:07.875 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:38:37.876 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:38:37.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:38:37 +00:00
+2020-08-21 21:39:07.878 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:39:37.890 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:39:37.890 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:39:37 +00:00
+2020-08-21 21:40:07.868 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:40:37.872 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:40:37 +00:00
+2020-08-21 21:40:37.872 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:41:07.880 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:41:19.900 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 21:41:19.900 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 21:41:19.900 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 21:41:19.901 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 21:41:19.901 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 21:41:19.901 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 21:41:19.901 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 21:41:19.901 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-08-21 21:42:20.665 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 21:42:20.754 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 21:42:20.755 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 21:42:20.756 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 21:42:20.756 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 21:42:20.756 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 21:42:20.757 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 21:42:20.757 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 21:42:20.878 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 21:42:20.884 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 21:42:21.024 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:42:21.488 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 21:42:22.132 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=19].
+2020-08-21 21:42:23.862 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0722122s
+2020-08-21 21:42:24.944 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 21:42:29.805 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0358199s
+2020-08-21 21:42:50.772 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:42:50 +00:00
+2020-08-21 21:42:50.784 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:43:20.768 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:43:50.772 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:43:50 +00:00
+2020-08-21 21:43:50.772 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:44:20.774 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:44:29.807 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080919s
+2020-08-21 21:44:50.784 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:44:50 +00:00
+2020-08-21 21:44:50.786 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:45:20.772 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:45:50.757 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:45:50 +00:00
+2020-08-21 21:45:50.769 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:46:20.771 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:46:27.328 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 21:46:27.329 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 21:46:27.329 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 21:46:27.329 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 21:46:27.329 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 21:46:27.330 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 21:46:27.330 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 21:46:27.330 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-08-21 21:46:49.382 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 21:46:49.462 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 21:46:49.462 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 21:46:49.462 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 21:46:49.463 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 21:46:49.463 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 21:46:49.463 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 21:46:49.464 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 21:46:49.552 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 21:46:49.553 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 21:46:49.699 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:46:50.162 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 21:46:50.733 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=21].
+2020-08-21 21:46:54.846 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 21:46:58.541 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0647036s
+2020-08-21 21:47:01.478 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0096440s
+2020-08-21 21:47:04.482 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0144182s
+2020-08-21 21:47:19.491 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:47:19 +00:00
+2020-08-21 21:47:19.500 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:47:49.471 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:48:19.471 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:48:19 +00:00
+2020-08-21 21:48:19.472 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:48:49.474 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:49:07.477 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021818s
+2020-08-21 21:49:19.475 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:49:19 +00:00
+2020-08-21 21:49:19.476 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:49:49.668 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:50:19.471 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:50:19.472 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:50:19 +00:00
+2020-08-21 21:50:49.482 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:51:07.471 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026881s
+2020-08-21 21:51:19.476 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:51:19.476 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:51:19 +00:00
+2020-08-21 21:51:49.482 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:52:19.491 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:52:19 +00:00
+2020-08-21 21:52:19.495 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:52:49.469 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:53:07.482 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056599s
+2020-08-21 21:53:19.472 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:53:19.472 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:53:19 +00:00
+2020-08-21 21:53:49.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:54:19.474 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:54:19 +00:00
+2020-08-21 21:54:19.475 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:54:49.476 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:55:07.481 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049057s
+2020-08-21 21:55:19.474 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:55:19.474 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:55:19 +00:00
+2020-08-21 21:55:49.478 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:56:19.480 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:56:19 +00:00
+2020-08-21 21:56:19.481 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:56:49.529 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:57:07.484 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034198s
+2020-08-21 21:57:19.470 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:57:19.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:57:19 +00:00
+2020-08-21 21:57:49.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32762 32767 1000 1000
+2020-08-21 21:58:19.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:58:19.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:58:19 +00:00
+2020-08-21 21:58:49.473 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:59:07.478 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032839s
+2020-08-21 21:59:19.476 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:59:19 +00:00
+2020-08-21 21:59:19.479 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:59:49.503 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:00:19.539 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:00:19 +00:00
+2020-08-21 22:00:19.550 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32757 32767 1000 1000
+2020-08-21 22:00:49.486 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:00:54.037 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 22:00:54.037 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 22:00:54.038 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-08-21 22:01:24.079 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 22:01:24.158 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 22:01:24.158 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 22:01:24.159 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 22:01:24.160 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 22:01:24.160 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 22:01:24.161 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 22:01:24.162 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 22:01:24.251 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 22:01:24.252 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 22:01:24.361 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 22:01:24.974 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2020-08-21 22:01:25.599 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=23].
+2020-08-21 22:01:29.536 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 22:01:33.215 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0350817s
+2020-08-21 22:01:54.206 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:01:54 +00:00
+2020-08-21 22:01:54.213 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:01:57.180 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0072516s
+2020-08-21 22:02:00.177 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062758s
+2020-08-21 22:02:24.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:02:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:02:54 +00:00
+2020-08-21 22:02:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:03:24.178 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:03:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:03:54 +00:00
+2020-08-21 22:03:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:04:03.189 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0057701s
+2020-08-21 22:04:24.177 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:04:54.161 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:04:54 +00:00
+2020-08-21 22:04:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:05:24.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:05:54.180 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:05:54 +00:00
+2020-08-21 22:05:54.181 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:06:03.218 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0235150s
+2020-08-21 22:06:24.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:06:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:06:54 +00:00
+2020-08-21 22:06:54.175 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:07:24.175 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:07:54.178 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:07:54 +00:00
+2020-08-21 22:07:54.178 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:08:03.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024631s
+2020-08-21 22:08:24.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:08:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:08:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:08:54 +00:00
+2020-08-21 22:09:24.184 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:09:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:09:54 +00:00
+2020-08-21 22:09:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:10:03.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020805s
+2020-08-21 22:10:24.185 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:10:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:10:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:10:54 +00:00
+2020-08-21 22:11:24.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:11:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:11:54 +00:00
+2020-08-21 22:11:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:12:00.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016856s
+2020-08-21 22:12:24.182 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:12:54.174 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:12:54 +00:00
+2020-08-21 22:12:54.175 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:13:24.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32760 32767 1000 1000
+2020-08-21 22:13:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32760 32767 1000 1000
+2020-08-21 22:13:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:13:54 +00:00
+2020-08-21 22:14:00.175 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024657s
+2020-08-21 22:14:24.199 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:14:54.163 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:14:54 +00:00
+2020-08-21 22:14:54.171 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:15:24.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:15:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:15:54 +00:00
+2020-08-21 22:15:54.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32760 32767 1000 1000
+2020-08-21 22:16:03.181 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0081561s
+2020-08-21 22:16:24.188 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:16:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:16:54 +00:00
+2020-08-21 22:16:54.173 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:17:24.172 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32760 32767 1000 1000
+2020-08-21 22:17:27.763 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 22:17:27.764 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 22:17:27.764 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 22:17:27.771 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 22:17:27.779 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 22:17:27.779 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 22:17:27.779 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 22:17:27.779 +08:00 [Zhaoxi.Microservice.AdvancedAPM] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.

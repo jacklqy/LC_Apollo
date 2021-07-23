@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>SkyAPMController-Index</h1>
+
+<h2>当前的学员们：</h2>
+@foreach (var user in base.ViewBag.Users)
+{
+    <p>@user.Name</p>
+    <p>@user.Role</p>
+}

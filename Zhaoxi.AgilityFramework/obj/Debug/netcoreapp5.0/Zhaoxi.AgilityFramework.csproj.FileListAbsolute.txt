@@ -1,0 +1,9 @@
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\bin\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.deps.json
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\bin\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.dll
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.csprojAssemblyReference.cache
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.AssemblyInfoInputs.cache
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.AssemblyInfo.cs
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\bin\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.pdb
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.csproj.CoreCompileInputs.cache
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.dll
+D:\zhaoxi\Architect\20200710Architect01Course052MicroService\Zhaoxi.Microservice.AdvancedDemo\Zhaoxi.AgilityFramework\obj\Debug\netcoreapp5.0\Zhaoxi.AgilityFramework.pdb

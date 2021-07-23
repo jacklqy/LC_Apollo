@@ -1,0 +1,432 @@
+2020-08-21 21:27:49.019 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-08-21 21:27:49.153 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-08-21 21:27:49.153 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-08-21 21:27:49.154 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-08-21 21:27:49.154 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-08-21 21:27:49.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-08-21 21:27:49.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-08-21 21:27:49.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-08-21 21:27:49.235 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-08-21 21:27:49.236 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-08-21 21:27:49.316 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2020-08-21 21:27:49.673 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-08-21 21:27:49.787 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Registered Service[Id=4].
+2020-08-21 21:27:50.357 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=14].
+2020-08-21 21:27:52.232 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0582658s
+2020-08-21 21:28:04.182 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0258214s
+2020-08-21 21:28:16.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0143217s
+2020-08-21 21:28:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:28:19 +00:00
+2020-08-21 21:28:19.184 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:28:20.199 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Error] SkyApm.Diagnostics.TracingDiagnosticObserver : Invoke diagnostic method exception.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at SkyApm.Base64Formatter.Decode(String value)
+   at SkyApm.Tracing.Sw6CarrierFormatter.Decode(String content)
+   at SkyApm.Tracing.CarrierPropagator.Extract(ICarrierHeaderCollection headerCollection)
+   at SkyApm.Tracing.TracingContext.CreateEntrySegmentContext(String operationName, ICarrierHeaderCollection carrierHeader)
+   at SkyApm.AspNetCore.Diagnostics.HostingTracingDiagnosticProcessor.BeginRequest(HttpContext httpContext)
+   at invoker_Void BeginRequest(HttpContext)(Object , Object[] )
+   at AspectCore.Extensions.Reflection.MethodReflector.Invoke(Object instance, Object[] parameters)
+   at SkyApm.Diagnostics.TracingDiagnosticMethod.Invoke(String diagnosticName, Object value)
+   at SkyApm.Diagnostics.TracingDiagnosticObserver.OnNext(KeyValuePair`2 value)
+2020-08-21 21:28:28.201 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0119468s
+2020-08-21 21:28:43.230 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0458152s
+2020-08-21 21:28:49.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:28:55.193 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0138884s
+2020-08-21 21:29:07.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036759s
+2020-08-21 21:29:19.214 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:29:19 +00:00
+2020-08-21 21:29:19.216 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:29:19.218 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0112225s
+2020-08-21 21:29:31.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0137863s
+2020-08-21 21:29:43.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062473s
+2020-08-21 21:29:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32766 32767 1000 1000
+2020-08-21 21:29:55.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071314s
+2020-08-21 21:30:07.231 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0260468s
+2020-08-21 21:30:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0061789s
+2020-08-21 21:30:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32756 32767 1000 1000
+2020-08-21 21:30:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:30:19 +00:00
+2020-08-21 21:30:31.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026917s
+2020-08-21 21:30:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044175s
+2020-08-21 21:30:49.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:30:55.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029362s
+2020-08-21 21:31:07.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050693s
+2020-08-21 21:31:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:31:19 +00:00
+2020-08-21 21:31:19.174 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:31:19.176 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0094954s
+2020-08-21 21:31:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026496s
+2020-08-21 21:31:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038818s
+2020-08-21 21:31:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:31:55.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033121s
+2020-08-21 21:32:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030751s
+2020-08-21 21:32:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:32:19 +00:00
+2020-08-21 21:32:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:32:19.175 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0066409s
+2020-08-21 21:32:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020931s
+2020-08-21 21:32:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042926s
+2020-08-21 21:32:49.170 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:32:55.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024447s
+2020-08-21 21:33:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033376s
+2020-08-21 21:33:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:33:19 +00:00
+2020-08-21 21:33:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:33:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052419s
+2020-08-21 21:33:31.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049904s
+2020-08-21 21:33:43.174 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0134916s
+2020-08-21 21:33:49.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:33:55.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027632s
+2020-08-21 21:34:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032047s
+2020-08-21 21:34:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:34:19 +00:00
+2020-08-21 21:34:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0064996s
+2020-08-21 21:34:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:34:31.200 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0404340s
+2020-08-21 21:34:43.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030833s
+2020-08-21 21:34:49.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32766 32767 1000 1000
+2020-08-21 21:34:55.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022273s
+2020-08-21 21:35:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021141s
+2020-08-21 21:35:19.190 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32755 32767 1000 1000
+2020-08-21 21:35:19.190 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:35:19 +00:00
+2020-08-21 21:35:19.194 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0291331s
+2020-08-21 21:35:31.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043239s
+2020-08-21 21:35:43.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039606s
+2020-08-21 21:35:49.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:35:55.181 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071996s
+2020-08-21 21:36:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029572s
+2020-08-21 21:36:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32754 32767 1000 1000
+2020-08-21 21:36:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:36:19 +00:00
+2020-08-21 21:36:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047829s
+2020-08-21 21:36:31.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026719s
+2020-08-21 21:36:43.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021510s
+2020-08-21 21:36:49.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:36:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021878s
+2020-08-21 21:37:07.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035636s
+2020-08-21 21:37:19.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:37:19 +00:00
+2020-08-21 21:37:19.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026987s
+2020-08-21 21:37:19.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:37:31.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048553s
+2020-08-21 21:37:43.176 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0123650s
+2020-08-21 21:37:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:37:55.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0074533s
+2020-08-21 21:38:07.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039086s
+2020-08-21 21:38:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:38:19 +00:00
+2020-08-21 21:38:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:38:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0066790s
+2020-08-21 21:38:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026262s
+2020-08-21 21:38:43.204 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0077733s
+2020-08-21 21:38:49.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:38:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035352s
+2020-08-21 21:39:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022029s
+2020-08-21 21:39:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:39:19 +00:00
+2020-08-21 21:39:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:39:19.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051264s
+2020-08-21 21:39:31.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0057286s
+2020-08-21 21:39:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045551s
+2020-08-21 21:39:49.176 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:39:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030108s
+2020-08-21 21:40:07.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060822s
+2020-08-21 21:40:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:40:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:40:19 +00:00
+2020-08-21 21:40:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044622s
+2020-08-21 21:40:31.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030913s
+2020-08-21 21:40:43.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025122s
+2020-08-21 21:40:49.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:40:55.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020340s
+2020-08-21 21:41:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028906s
+2020-08-21 21:41:19.234 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:41:19 +00:00
+2020-08-21 21:41:19.251 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0229900s
+2020-08-21 21:41:19.252 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 16M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:41:31.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041617s
+2020-08-21 21:41:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032615s
+2020-08-21 21:41:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:41:55.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043845s
+2020-08-21 21:42:07.331 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0441127s
+2020-08-21 21:42:19.179 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:42:19.180 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:42:19 +00:00
+2020-08-21 21:42:19.181 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0067394s
+2020-08-21 21:42:31.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0053276s
+2020-08-21 21:42:43.201 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071639s
+2020-08-21 21:42:49.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:42:55.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028062s
+2020-08-21 21:43:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022435s
+2020-08-21 21:43:19.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:43:19 +00:00
+2020-08-21 21:43:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:43:19.174 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060046s
+2020-08-21 21:43:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029930s
+2020-08-21 21:43:43.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080244s
+2020-08-21 21:43:49.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:43:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045810s
+2020-08-21 21:44:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027148s
+2020-08-21 21:44:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:44:19 +00:00
+2020-08-21 21:44:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071907s
+2020-08-21 21:44:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:44:31.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042894s
+2020-08-21 21:44:43.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038514s
+2020-08-21 21:44:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32758 32767 1000 1000
+2020-08-21 21:44:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019777s
+2020-08-21 21:45:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030307s
+2020-08-21 21:45:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:45:19 +00:00
+2020-08-21 21:45:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:45:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056293s
+2020-08-21 21:45:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026981s
+2020-08-21 21:45:43.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0065512s
+2020-08-21 21:45:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32761 32767 1000 1000
+2020-08-21 21:45:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039434s
+2020-08-21 21:46:07.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040100s
+2020-08-21 21:46:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:46:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048037s
+2020-08-21 21:46:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:46:19 +00:00
+2020-08-21 21:46:31.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052205s
+2020-08-21 21:46:43.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044204s
+2020-08-21 21:46:49.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 20M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:46:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018612s
+2020-08-21 21:47:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029299s
+2020-08-21 21:47:19.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:47:19 +00:00
+2020-08-21 21:47:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0058641s
+2020-08-21 21:47:19.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:47:31.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026056s
+2020-08-21 21:47:43.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0073408s
+2020-08-21 21:47:49.170 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:47:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025323s
+2020-08-21 21:48:07.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0058329s
+2020-08-21 21:48:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:48:19 +00:00
+2020-08-21 21:48:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:48:19.175 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0109715s
+2020-08-21 21:48:31.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040401s
+2020-08-21 21:48:43.212 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0237606s
+2020-08-21 21:48:49.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:48:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023257s
+2020-08-21 21:49:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025150s
+2020-08-21 21:49:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 22M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:49:19.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:49:19 +00:00
+2020-08-21 21:49:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038828s
+2020-08-21 21:49:31.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032476s
+2020-08-21 21:49:43.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041634s
+2020-08-21 21:49:49.311 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:49:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031770s
+2020-08-21 21:50:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021599s
+2020-08-21 21:50:19.203 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:50:19.204 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:50:19 +00:00
+2020-08-21 21:50:19.204 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0387471s
+2020-08-21 21:50:31.191 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0055824s
+2020-08-21 21:50:43.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027739s
+2020-08-21 21:50:49.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:50:55.178 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035879s
+2020-08-21 21:51:07.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024098s
+2020-08-21 21:51:19.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:51:19 +00:00
+2020-08-21 21:51:19.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041976s
+2020-08-21 21:51:19.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32763 32767 1000 1000
+2020-08-21 21:51:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024427s
+2020-08-21 21:51:43.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040474s
+2020-08-21 21:51:49.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:51:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042005s
+2020-08-21 21:52:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020827s
+2020-08-21 21:52:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:52:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0054946s
+2020-08-21 21:52:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:52:19 +00:00
+2020-08-21 21:52:31.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024465s
+2020-08-21 21:52:43.183 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0273431s
+2020-08-21 21:52:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:52:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024516s
+2020-08-21 21:53:07.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016248s
+2020-08-21 21:53:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:53:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:53:19 +00:00
+2020-08-21 21:53:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033506s
+2020-08-21 21:53:31.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029663s
+2020-08-21 21:53:43.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040440s
+2020-08-21 21:53:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:53:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039185s
+2020-08-21 21:54:07.224 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047481s
+2020-08-21 21:54:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:54:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:54:19 +00:00
+2020-08-21 21:54:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051108s
+2020-08-21 21:54:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032366s
+2020-08-21 21:54:43.203 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0349721s
+2020-08-21 21:54:49.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:54:55.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025832s
+2020-08-21 21:55:07.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020852s
+2020-08-21 21:55:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:55:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:55:19 +00:00
+2020-08-21 21:55:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035045s
+2020-08-21 21:55:31.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019688s
+2020-08-21 21:55:43.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0078126s
+2020-08-21 21:55:49.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:55:55.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039411s
+2020-08-21 21:56:10.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024182s
+2020-08-21 21:56:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32758 32767 1000 1000
+2020-08-21 21:56:19.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:56:19 +00:00
+2020-08-21 21:56:22.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030106s
+2020-08-21 21:56:34.307 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0130189s
+2020-08-21 21:56:46.448 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0399414s
+2020-08-21 21:56:49.291 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:56:58.606 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0474628s
+2020-08-21 21:57:10.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023526s
+2020-08-21 21:57:19.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32760 32767 1000 1000
+2020-08-21 21:57:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:57:19 +00:00
+2020-08-21 21:57:22.185 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0282990s
+2020-08-21 21:57:34.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037156s
+2020-08-21 21:57:46.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015895s
+2020-08-21 21:57:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 28M ThreadPool 32765 32767 1000 1000
+2020-08-21 21:57:58.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027649s
+2020-08-21 21:58:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020417s
+2020-08-21 21:58:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 0 0 3M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:58:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:58:19 +00:00
+2020-08-21 21:58:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023039s
+2020-08-21 21:58:34.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024161s
+2020-08-21 21:58:46.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0074253s
+2020-08-21 21:58:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32757 32767 1000 1000
+2020-08-21 21:58:58.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028093s
+2020-08-21 21:59:10.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028907s
+2020-08-21 21:59:19.155 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 13:59:19 +00:00
+2020-08-21 21:59:19.176 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32764 32767 1000 1000
+2020-08-21 21:59:22.190 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051501s
+2020-08-21 21:59:34.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027180s
+2020-08-21 21:59:46.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019214s
+2020-08-21 21:59:49.222 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32759 32767 1000 1000
+2020-08-21 21:59:58.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016332s
+2020-08-21 22:00:10.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052025s
+2020-08-21 22:00:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:00:19 +00:00
+2020-08-21 22:00:19.195 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:00:22.173 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0122223s
+2020-08-21 22:00:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035935s
+2020-08-21 22:00:46.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048606s
+2020-08-21 22:00:49.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:00:58.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032567s
+2020-08-21 22:01:10.212 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0162614s
+2020-08-21 22:01:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:01:19 +00:00
+2020-08-21 22:01:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:01:22.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026651s
+2020-08-21 22:01:34.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021570s
+2020-08-21 22:01:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025538s
+2020-08-21 22:01:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:01:58.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025161s
+2020-08-21 22:02:10.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030466s
+2020-08-21 22:02:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:02:19 +00:00
+2020-08-21 22:02:19.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:02:22.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022619s
+2020-08-21 22:02:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020860s
+2020-08-21 22:02:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022034s
+2020-08-21 22:02:49.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:02:58.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018323s
+2020-08-21 22:03:10.170 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017193s
+2020-08-21 22:03:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:03:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:03:19 +00:00
+2020-08-21 22:03:22.216 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0143078s
+2020-08-21 22:03:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023493s
+2020-08-21 22:03:46.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016574s
+2020-08-21 22:03:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 7M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:03:58.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019732s
+2020-08-21 22:04:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020387s
+2020-08-21 22:04:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:04:19 +00:00
+2020-08-21 22:04:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:04:22.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024195s
+2020-08-21 22:04:34.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026223s
+2020-08-21 22:04:46.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046804s
+2020-08-21 22:04:49.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:04:58.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017319s
+2020-08-21 22:05:10.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045403s
+2020-08-21 22:05:19.155 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:05:19 +00:00
+2020-08-21 22:05:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32764 32767 1000 1000
+2020-08-21 22:05:22.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017945s
+2020-08-21 22:05:34.172 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0095606s
+2020-08-21 22:05:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032565s
+2020-08-21 22:05:49.183 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:05:58.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031729s
+2020-08-21 22:06:10.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037042s
+2020-08-21 22:06:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:06:19 +00:00
+2020-08-21 22:06:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 9M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:06:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024250s
+2020-08-21 22:06:34.191 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044535s
+2020-08-21 22:06:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025671s
+2020-08-21 22:06:49.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:06:58.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030762s
+2020-08-21 22:07:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019345s
+2020-08-21 22:07:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:07:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:07:19 +00:00
+2020-08-21 22:07:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020695s
+2020-08-21 22:07:34.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019905s
+2020-08-21 22:07:46.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029383s
+2020-08-21 22:07:49.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:07:58.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019452s
+2020-08-21 22:08:10.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017588s
+2020-08-21 22:08:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:08:19 +00:00
+2020-08-21 22:08:19.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:08:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023358s
+2020-08-21 22:08:34.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049991s
+2020-08-21 22:08:46.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017842s
+2020-08-21 22:08:49.164 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32764 32767 1000 1000
+2020-08-21 22:08:58.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042024s
+2020-08-21 22:09:10.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021677s
+2020-08-21 22:09:19.155 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:09:19 +00:00
+2020-08-21 22:09:19.171 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32762 32767 1000 1000
+2020-08-21 22:09:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025384s
+2020-08-21 22:09:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018864s
+2020-08-21 22:09:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021553s
+2020-08-21 22:09:49.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:09:58.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023440s
+2020-08-21 22:10:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016677s
+2020-08-21 22:10:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:10:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:10:19 +00:00
+2020-08-21 22:10:22.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015815s
+2020-08-21 22:10:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028124s
+2020-08-21 22:10:46.191 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0329303s
+2020-08-21 22:10:49.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32761 32767 1000 1000
+2020-08-21 22:10:58.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016565s
+2020-08-21 22:11:10.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029872s
+2020-08-21 22:11:19.254 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:11:19.254 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:11:19 +00:00
+2020-08-21 22:11:22.159 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038274s
+2020-08-21 22:11:34.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022688s
+2020-08-21 22:11:46.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0064720s
+2020-08-21 22:11:49.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:11:58.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018076s
+2020-08-21 22:12:10.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029099s
+2020-08-21 22:12:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:12:19.166 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:12:19 +00:00
+2020-08-21 22:12:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016325s
+2020-08-21 22:12:34.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014850s
+2020-08-21 22:12:46.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019340s
+2020-08-21 22:12:49.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:12:58.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040943s
+2020-08-21 22:13:10.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021122s
+2020-08-21 22:13:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:13:19 +00:00
+2020-08-21 22:13:19.165 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:13:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022505s
+2020-08-21 22:13:34.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018647s
+2020-08-21 22:13:46.185 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032504s
+2020-08-21 22:13:49.160 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:13:58.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026049s
+2020-08-21 22:14:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016179s
+2020-08-21 22:14:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:14:19 +00:00
+2020-08-21 22:14:19.167 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:14:22.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029974s
+2020-08-21 22:14:34.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020257s
+2020-08-21 22:14:46.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018242s
+2020-08-21 22:14:49.170 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:14:58.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020527s
+2020-08-21 22:15:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014113s
+2020-08-21 22:15:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:15:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:15:19 +00:00
+2020-08-21 22:15:22.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056719s
+2020-08-21 22:15:34.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056621s
+2020-08-21 22:15:46.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021721s
+2020-08-21 22:15:49.161 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32763 32767 1000 1000
+2020-08-21 22:15:58.163 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023222s
+2020-08-21 22:16:10.157 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024945s
+2020-08-21 22:16:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2020-08-21 22:16:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:16:19 +00:00
+2020-08-21 22:16:22.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021870s
+2020-08-21 22:16:34.195 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0263548s
+2020-08-21 22:16:46.169 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015961s
+2020-08-21 22:16:49.162 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32758 32767 1000 1000
+2020-08-21 22:16:58.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023627s
+2020-08-21 22:17:10.156 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018749s
+2020-08-21 22:17:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32760 32767 1000 1000
+2020-08-21 22:17:19.168 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Ping server @2020/8/21 14:17:19 +00:00
+2020-08-21 22:17:22.158 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029309s
+2020-08-21 22:17:27.795 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-08-21 22:17:27.796 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-08-21 22:17:27.796 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-08-21 22:17:27.797 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-08-21 22:17:27.797 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-08-21 22:17:27.797 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-08-21 22:17:27.797 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-08-21 22:17:27.797 +08:00 [Zhaoxi.Microservice.WebApiDemo] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Zhaoxi.gRPCDemo.ScoreServer";
+
+package score;
+
+service Score {
+  rpc GetScore (ScoreRequest) returns (ScoreReply);
+}
+
+message ScoreRequest {
+  string lessonId = 1;
+}
+message ScoreReply {
+  int32 score = 1;
+}

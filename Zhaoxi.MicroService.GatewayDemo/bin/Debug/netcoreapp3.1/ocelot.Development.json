@@ -1,0 +1,114 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}",
+      "UpstreamPathTemplate": "/T/{url}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "DownstreamHttpMethod": null,
+      "AddHeadersToRequest": {},
+      "UpstreamHeaderTransform": {},
+      "DownstreamHeaderTransform": {},
+      "AddClaimsToRequest": {},
+      "RouteClaimsRequirement": {},
+      "AddQueriesToRequest": {},
+      "ChangeDownstreamPathTemplate": {},
+      "RequestIdKey": null,
+      "FileCacheOptions": {
+        "TtlSeconds": 0,
+        "Region": null
+      },
+      "RouteIsCaseSensitive": false,
+      "ServiceName": "ZhaoxiUserService",
+      "ServiceNamespace": null,
+      "DownstreamScheme": "http",
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 0,
+        "DurationOfBreak": 0,
+        "TimeoutValue": 0
+      },
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin",
+        "Key": null,
+        "Expiry": 0
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [
+          "eleven",
+          "seven"
+        ],
+        "EnableRateLimiting": true,
+        "Period": "5m",
+        "PeriodTimespan": 30.0,
+        "Limit": 5
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": null,
+        "AllowedScopes": []
+      },
+      "HttpHandlerOptions": {
+        "AllowAutoRedirect": false,
+        "UseCookieContainer": false,
+        "UseTracing": false,
+        "UseProxy": true,
+        "MaxConnectionsPerServer": 2147483647
+      },
+      "DownstreamHostAndPorts": [],
+      "UpstreamHost": null,
+      "Key": null,
+      "DelegatingHandlers": [],
+      "Priority": 1,
+      "Timeout": 0,
+      "DangerousAcceptAnyServerCertificateValidator": false,
+      "SecurityOptions": {
+        "IPAllowedList": [],
+        "IPBlockedList": []
+      },
+      "DownstreamHttpVersion": null
+    }
+  ],
+  "DynamicRoutes": [],
+  "Aggregates": [],
+  "GlobalConfiguration": {
+    "RequestIdKey": null,
+    "ServiceDiscoveryProvider": {
+      "Scheme": null,
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul",
+      "Token": null,
+      "ConfigurationKey": null,
+      "PollingInterval": 0,
+      "Namespace": null
+    },
+    "RateLimitOptions": {
+      "ClientIdHeader": "ClientId",
+      "QuotaExceededMessage": "Too many requests, maybe later? 11",
+      "RateLimitCounterPrefix": "ocelot",
+      "DisableRateLimitHeaders": false,
+      "HttpStatusCode": 666
+    },
+    "QoSOptions": {
+      "ExceptionsAllowedBeforeBreaking": 0,
+      "DurationOfBreak": 0,
+      "TimeoutValue": 0
+    },
+    "BaseUrl": "http://127.0.0.1:6299",
+    "LoadBalancerOptions": {
+      "Type": null,
+      "Key": null,
+      "Expiry": 0
+    },
+    "DownstreamScheme": null,
+    "HttpHandlerOptions": {
+      "AllowAutoRedirect": false,
+      "UseCookieContainer": false,
+      "UseTracing": false,
+      "UseProxy": true,
+      "MaxConnectionsPerServer": 2147483647
+    },
+    "DownstreamHttpVersion": null
+  }
+}

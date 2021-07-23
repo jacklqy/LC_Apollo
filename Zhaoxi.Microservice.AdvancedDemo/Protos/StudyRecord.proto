@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "Zhaoxi.gRPCDemo.RecordServer";
+
+package StudyRecord;
+
+// The greeting service definition.
+service StudyRecord {
+  // Sends a greeting
+  rpc GetRecordList (GetRecordRequest) returns (StudyRecordReply);
+}
+
+// The request message containing the user's name.
+message GetRecordRequest {
+  int32 Id = 1;
+}
+
+message StudyRecordReply {
+  repeated StudyRecordModel StudyRecordModelList = 1;
+  message StudyRecordModel{
+        int32  Id = 1;
+        int32  StudentId = 2;
+        string Description=3;
+  }
+}
